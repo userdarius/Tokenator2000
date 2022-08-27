@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-import './MintToken';
-import MintToken from "./MintToken";
+import './components/MintToken';
+import MintToken from "./components/MintToken";
+import MintNft from "./components/MintNft";
+import SendSOL from "./components/SendSOL";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <MintToken />
+          <MintToken/>
+          <MintNft/>
+          <SendSOL/>
       </header>
     </div>
   );
